@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <title> Masodur Rahman shanto - web developer</title>
-     <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+<head>
+<title>Masodur Rahman Shanto</title>
+
+ <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+ 
 <style> 
-  header {
+
+ header {
     text-align: center;
-			    color: white;
-			    background-color: #37474f;
-			    background-size: cover;
+    color: #362359;
+	font-size:30px;
+
+    background-repeat: no-repeat;
+    background-size: Cover;
+    background-attachment: fixed
   }
-  a {
-    color: white;
+    a {
+    color:#362359;
   }
-  ul {
-    padding: 10px;
-    background: rgba(0,0,0, 0.5);
+ 
     
-  }
+    
   li {
     display: inline;
     padding: 0px 20px 0px 20px;
   }
-  
-  img {
-    margin: 30px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 40px;
-  }
-  article {
-    padding: 20px;
-    margin: 0 auto; 
+     article {
     max-width: 500px
   }
+  body {
   
-  h1 {
+    
+    background: url("6.png");
+    background-repeat: no-repeat;
+    background-size: Cover;
+    background-attachment: fixed
+	}
+    
+ 
+   h1 {
   text-align: center;
   font-size: 50px;
- }
-  body {
-    
-   font-family: 'Supermercado One', cursive;
-			    background-color: #bdbdbd;
-			    background-size: cover;
-			    background-position: center;
-			    color: #263238;
-  }
   
-  
-  
-  
+   h2 {
+  text-align: right-side;
+  font-size: 30px;
 p {
     text-align : left;
     font-size: 22px;
@@ -57,70 +53,70 @@ p {
   
   }
   
-  @media (max-width: 500px){
-    body {
-      background: red;
-    }
-    h1 {
-      font-size: 35px;
-    }
-    li {
-      display: block;
-      padding: 5px;
-       
-    }
+ article {
+    padding: 12px;
+    margin: 0 auto; 
+    max-width: 500px
   }
+    
+  @media(max-width:500px){
+  
+  body{
+  background: #362359;
+  }
+
+  
+  li{
+  display: block;
+  padding: 5px;
+  }
+  }
+  
   
 </style>
 </head>
 
-<body>
-
- <header>
-  <center> <img src="masud.png"> </center>
-        <h1> Masodur Rahman Shanto's Blog </h1>
-   <ul>
-     <li> <a href="#"> Home </a> </li>
-     <li> <a href="#"> About me </a> </li>
-     <li> <a href="#"> Web Dev </a> </li>
-     <li> <a href="#"> SEO </a> </li>
-   </ul>
-  </header>
- <article>
-   <h2><strong>MY SCHOOL</strong></h2>
-			  <p>I'm a student of Barera High School.Which is located at barera,chandina,comilla.</p>  
-			  <button onclick="myFunction()">Like</button>
- </article>
-  
-  <article>
-   <h2><strong>My College</strong></h2>
-			 <p>My college was Govt.Science College Dhaka.Which is located at firmgate,tejgaon,dhaka.It's a renowned college in dhaka.I feel proud to be a student of GSC</p> 
-			 <button onclick="myFunction()">Like</button>
- 
- </article>
-  
-  <article>
-  <h2><strong>MY University</strong></h2>
-			  <p>My university is Daffodil International University (DIU).IT's a recognized private university in Bangladesh.I'm a student of Textile Engineering department.I'm doing B>Sc in TE.I feel proud for being a part of this university.</p> 
-			  <button onclick="myFunction()">Like</button>
- </article>
- 
- 
-  <article>
-   <h2><strong>MY Home Distric</strong></h2>
-			  <p>Comilla is a city in the Chittagong Division of Bangladesh, located along the Dhaka-Chittagong Highway. It is the administrative centre of the Comilla District, part of the Chittagong Division</p>  
-			  <button onclick="myFunction()">Like</button>
- </article>
- 
- 
- <script>
-   $("button").on("click", function like() {
-     alert("You're Clicked on my post");
-   });
-   
- </script>
-  
-  
-  
+<body> 
+      <header> 
+	   
+        <h1> Masodur Rahman Shanto </h1>
+        
+    
+	   <ul>
+	                   <li> <a  href="#"> Home       </a>  </li>
+		               <li> <a  href="#"> About me   </a>  </li>
+                       <li> <a  href="#"> Web design </a>  </li>
+		               <li> <a  href="#"> SEO        </a>  </li>
+	   </ul>
+	
+	  </header>
+	  
+	  <article>
+	                   <h2>  My School </h2>
+		               <p> My school was Barera High School.It is situated in comilla </p>
+		 
+		               <button on click="like()">like</button>
+	  </article>
+	   
+	   <article>
+	                  <h2> My College </h2>
+		              <p> My College was Govt.Svience College.It is situated in Dhaka,tejgaon,farmgate </p>
+		              <button on click="like()">like</button>
+	  </article>
+	  
+	   <article>
+	                  <h2> My University     </h2>
+		              <p>  My University is Daffodil International University.I'm studying here in B.Sc in Textile Engineering </p>
+		              <button on click="like()">like</button>
+		 
+	  </article>
+	 
+        <script>
+			           function myFunction() {
+			           alert("You are Click my post");
+		            }
+		</script>
+     
+	  
 </body>
 </html>
